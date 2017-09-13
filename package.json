@@ -1,0 +1,20 @@
+{
+  "name": "socket-app",
+  "version": "1.0.0",
+  "description": "works for socket ",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc && node ./dist/index.js",
+    "test": ""
+  },
+  "author": "Abhishek Anand",
+  "license": "ISC",
+  "dependencies": {
+    "@types/mocha": "^2.2.43",
+    "@types/node": "^8.0.28",
+    "express": "^4.15.4",
+    "hbs": "^4.0.1",
+    "ts-loader": "^2.3.7",
+    "typescript": "^2.5.2"
+  }
+}
